@@ -7,6 +7,7 @@ function Header() {
         <div id="headerbg">
             <img id="profilepic" alt="me"/>
             <div id="navlinkdiv">
+                navlinks will go here
                 <NavLink to="/" />
                 <NavLink to="/" />
                 <NavLink to="/" />

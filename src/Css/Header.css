@@ -9,7 +9,17 @@
 }
 
 #profilepic {
+    position: absolute;
     background-color: red;
     border: 2.5px solid white;
-    border-radius: 15%;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+}
+
+#navlinkdiv {
+    width: 75em;
+    height: 2.5em;
+    background-color: yellow;
+    margin-top: auto;
 }
