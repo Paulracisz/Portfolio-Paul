@@ -1,0 +1,15 @@
+#headerbg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 25em;
+}
+
+#profilepic {
+    background-color: red;
+    border: 2.5px solid white;
+    border-radius: 15%;
+}
