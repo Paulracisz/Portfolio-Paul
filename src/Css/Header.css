@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 body {
-    background-color: black;
+    background-color: #252934;
 }
 
 #headerbg {
@@ -9,27 +9,28 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjU1NzQ5fQ&w=1000&q=80");
     width: 100%;
     height: 25em;
 }
 
 #profilepic {
     position: absolute;
-    background-color: red;
+    background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-1/s200x200/104102812_3388478907851168_3483446643681804042_o.jpg?_nc_cat=108&_nc_sid=7206a8&_nc_ohc=F0uEthLWCGEAX-cEyBH&_nc_ht=scontent.fdet1-2.fna&_nc_tp=7&oh=9d0820a74f7cf5f14f635f545d3f0030&oe=5F493BDA");
     border: 2.5px solid white;
     border-radius: 50%;
     width: 12em;
     height: 12em;
+    object-fit: scale-down;
 }
 
 #navlinkdiv {
     display: flex;
     flex-direction: row;
-    width: 75em;
+    width: 75vw;
     height: 2.5em;
     margin-top: auto;
-    background-color: rgb(9, 9, 161);
+    background-color: #252934c4;
     transition: 0.4s ease;
 }
 
@@ -57,7 +58,20 @@ font-family: 'Rowdies', cursive;
     text-decoration: none;
 }
 .navs > p:hover {
-    color: rgb(19, 0, 87);
-    text-shadow: 2px 2px white;
+    color: #e31b6d;
+    text-shadow: 2px 2px #252934;
     transition: 0.2 ease;
+}
+
+#hello {
+    color: white;
+    margin-top: auto;
+    z-index: 100000;
+    margin-bottom: 10em;
+    text-shadow: 3px 3px black;
+}
+
+mark {
+    color: #e31b6d;
+    background: none
 }

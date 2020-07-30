@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto+Slab&display=swap');
+
+
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #252934;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e31b6d;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
+}
+
+
+#bigbadgebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 4px solid #04c2c9;
+    width: 75%;
+}
+
+.flavortext {
+    font-size: 1em;
+}
+
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+    text-decoration: underline;
+    font-weight: bold;
+}
+@keyframes blinkingText{
+    0%{     color: #252934;    }
+    49%{    color: #252934; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #252934;    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* TODO: ADD MEDIA QUERIES OR MAKE IT DISPLAY A MESSAGE TO ROTATE DEVICE */
