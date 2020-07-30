@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+body {
+    background-color: black;
+}
+
 #headerbg {
     display: flex;
     flex-direction: column;
@@ -18,8 +24,40 @@
 }
 
 #navlinkdiv {
+    display: flex;
+    flex-direction: row;
     width: 75em;
     height: 2.5em;
-    background-color: yellow;
     margin-top: auto;
+    background-color: rgb(9, 9, 161);
+    transition: 0.4s ease;
+}
+
+.navs {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid rgb(255, 255, 255);
+width: 25em;
+height: 1.5em;
+text-decoration: none;
+}
+
+.navs:hover {
+background-color: rgba(255, 255, 255, 0.363);
+transition: ease 0.5s;
+}
+
+.navs {
+font-size: 1.5em;
+font-family: 'Rowdies', cursive;
+}
+.navs > p {
+    color: white;
+    text-decoration: none;
+}
+.navs > p:hover {
+    color: rgb(19, 0, 87);
+    text-shadow: 2px 2px white;
+    transition: 0.2 ease;
 }
