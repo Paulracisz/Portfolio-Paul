@@ -16,12 +16,23 @@ body {
 
 #profilepic {
     position: absolute;
-    background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-1/s200x200/104102812_3388478907851168_3483446643681804042_o.jpg?_nc_cat=108&_nc_sid=7206a8&_nc_ohc=F0uEthLWCGEAX-cEyBH&_nc_ht=scontent.fdet1-2.fna&_nc_tp=7&oh=9d0820a74f7cf5f14f635f545d3f0030&oe=5F493BDA");
+    background-image: url(../resources/profile\ 1.png);
     border: 2.5px solid white;
     border-radius: 50%;
-    width: 12em;
-    height: 12em;
-    object-fit: scale-down;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#profilepic:hover {
+    background-image: url(../resources/profile\ 2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#profilediv {
+    text-indent: -50%;
 }
 
 #navlinkdiv {

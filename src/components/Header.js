@@ -2,9 +2,11 @@ import React from "react";
 import '../Css/Header.css';
 import { NavLink } from "react-router-dom";
 
+
 function Header() {
     return (
         <div id="headerbg">
+            <div id="profilediv"></div>
             <img id="profilepic" alt=""/>
             <h2 id="hello">Hello, I'm <mark>Paul Racisz.</mark> <br/>I'm a full stack developer.</h2>
             <div id="navlinkdiv">
